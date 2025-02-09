@@ -36,9 +36,9 @@ yarn install
 Open `index.js` and replace the placeholders:
 
 ```javascript
-GITHUB_ACCESS_TOKEN: "your_personal_access_token",
-USERNAME: "your_github_username",
-ESCAPE_LIST: ["repo1", "repo2", "repo3"]
+const GITHUB_ACCESS_TOKEN = "your_personal_access_token";
+const USERNAME = "your_github_username";
+const ESCAPE_LIST = ["repo1", "repo2", "repo3"];
 ```
 
 ### 4️⃣ Run the script
